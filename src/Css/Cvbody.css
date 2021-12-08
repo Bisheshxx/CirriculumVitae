@@ -11,10 +11,16 @@
 .header{    
     padding-top: 20px;
 }
+.profilepicwrapper{
+    display: flex;
+    justify-content: center;
+}
 .profilepic{
-    padding-left:60px;
+    border: 10px solid rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
     height: 400px !important;
-    width: fit-content !important;
+    width: 400px !important;
 }
 .Contact_Details{
     display: flex;
@@ -41,11 +47,9 @@
     padding: 30px 30px 30px;
     background-color: rgb(233, 233, 233);
 }
-.skills{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .skills__image{
+    margin-top: 20px;
     height: 70px !important;
 }
 
@@ -70,5 +74,10 @@
     }    
   }
   h2{
+      padding-top: 30px;
       color: white;
   }
+  ul{
+      list-style: none;
+  }
+  

@@ -31,11 +31,35 @@ export default function Cvbody() {
                 <Container>
                     <Row>
                         <Col>
-                            <Image className="profilepic" src={Profilepic} roundedCircle />
+                            <div className="profilepicwrapper">
+                                <Image className="profilepic" src={Profilepic} roundedCircle />
+                            </div>
+
                         </Col>
                         <Col>
                             <h2>About Me:</h2>
-                            <p>Blah blah blah</p>
+                            <span>I am a very Enthusiastic and Hardworking person who believes is ready to learn new things.</span>
+                            <h2>Hobbies</h2>
+                            <span>
+                                Some of my hobbies include:
+                                <ul>
+                                    <li>Video Games</li>
+                                    <li>Basket Ball</li>
+                                    <li>Video Editing</li>
+
+                                </ul>
+                            </span>
+                            <h2>Languages:  </h2>
+                            <span>
+
+                                <ul>
+                                    <li>English</li>
+                                    <li>Newari</li>
+                                    <li>Nepali</li>
+                                    <li>Hindi</li>
+
+                                </ul>
+                            </span>
 
                         </Col>
                     </Row>
@@ -43,8 +67,8 @@ export default function Cvbody() {
                         <Col>
                             <div className="Contact">
                                 <h2>Contact:</h2>
-                                </div>
-                                <div className="Contact">
+                            </div>
+                            <div className="Contact">
                                 <div className="Contact_Details">
                                     <span><LocationOnIcon /> Nayabazaar, Kathmandu</span>
                                     <span><CallIcon /> 9813033635</span>
@@ -61,18 +85,22 @@ export default function Cvbody() {
                             </div>
                         </Col>
                         <Col>
-                            <h2><SchoolIcon/> Education</h2>
+                            <h2><SchoolIcon /> Education</h2>
                             <div className="educationflex">
-                                <h4> Bachelor's in Information and Technology</h4>
-                                <span>Softwarica College of IT & E-commerce</span>
+                                <h4>Softwarica College of IT & E-commerce</h4>
+                                <span>2019 - 2021</span>
+                                <span>BSc (Hons) Computing</span>
                             </div>
                             <div className="educationflex">
-                                <h4> +2 (Science)</h4>
-                                <span>Price College</span>
+                                <h4> Prime College</h4>
+                                <span>+2 (Science)</span>
+                                <span>2014-2016</span>
+
                             </div>
                             <div className="educationflex">
-                                <h4> SLC</h4>
-                                <span>Rehdon Higher Secondary School</span>
+                                <h4>Rehdon Higher Secondary School</h4>
+                                <span>Class of 2074</span>
+                                <span>SLC</span>
                             </div>
 
                         </Col>
@@ -81,16 +109,40 @@ export default function Cvbody() {
                         <Col>
                             <h2>Skills</h2>
                             <div className="skills">
-                                <Image className="skills__image" src={FlutterIcon} alt="Flutter"/>
-                                <Image className="skills__image" src={PythonIcon}/>
-                                <Image className="skills__image" src={CssIcon}/>
-                                <Image className="skills__image" src={JavaScriptIcon}/>
-                                <Image className="skills__image" src={HtmlIcon}/>
-                                <Image className="skills__image" src={KotlinIcon}/>
+                                <Row>
+                                    <Col>
+                                        <Image className="skills__image" src={FlutterIcon} alt="Flutter" />
+                                    </Col>
+                                    <Col>
+                                        <Image className="skills__image" src={PythonIcon} />
+                                    </Col>
+                                    <Col>
+                                        <Image className="skills__image" src={CssIcon} />
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <Image className="skills__image" src={JavaScriptIcon} />
+                                    </Col>
+                                    <Col>
+                                        <Image className="skills__image" src={HtmlIcon} />
+                                    </Col>
+                                    <Col>
+                                        <Image className="skills__image" src={KotlinIcon} />
+                                    </Col>
+                                </Row>
+
+
+
+
+
+
                             </div>
                         </Col>
                         <Col>
-                        asdfaf</Col>
+                            <h2>Working Projects</h2>
+                            <a target="_blank" href='https://practical-allen-faba84.netlify.app/?fbclid=IwAR1VD4dVTwLJQEBp8bXdOkxdqxhbbyxzqjd_RT4KQRjSl_EuTlhXou1AXfI'>Covid Tracker Website</a>
+                        </Col>
                     </Row>
                 </Container>
                 <div className="firstcol">
