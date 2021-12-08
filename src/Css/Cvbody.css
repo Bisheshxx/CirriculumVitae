@@ -3,6 +3,10 @@
     font-size: calc(6px + 2vmin);
     display: flex;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    animation: flicker 1.5s infinite alternate;
 }
 .header{    
     padding-top: 20px;
@@ -29,3 +33,42 @@
     flex-direction: column;
     padding-top: 30px;
 }
+.Contact{
+    display: flex;
+    justify-content: center;
+}
+.Cvbody{
+    padding: 30px 30px 30px;
+    background-color: rgb(233, 233, 233);
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills__image{
+    height: 70px !important;
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 19px #0fa,
+        0 0 19px #0fa,
+        0 0 19px #0fa,
+        0 0 19px #0fa,
+        0 0 19px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  h2{
+      color: white;
+  }

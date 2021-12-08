@@ -2,6 +2,12 @@ import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import '../../Css/Cvbody.css'
 import Profilepic from "../../images/profilepic.jpg"
+import FlutterIcon from '../../images/flutterlogo.png'
+import CssIcon from '../../images/css.png'
+import HtmlIcon from '../../images/html.png'
+import JavaScriptIcon from '../../images/javascript.png'
+import KotlinIcon from '../../images/kotlin.png'
+import PythonIcon from '../../images/python.png'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
@@ -14,7 +20,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 export default function Cvbody() {
     return (
-        <div>
+        <div className="Cvbody">
             <div className="header">
                 <div className="name">
                     <h1>Bishesh Tuladhar</h1>
@@ -37,6 +43,8 @@ export default function Cvbody() {
                         <Col>
                             <div className="Contact">
                                 <h2>Contact:</h2>
+                                </div>
+                                <div className="Contact">
                                 <div className="Contact_Details">
                                     <span><LocationOnIcon /> Nayabazaar, Kathmandu</span>
                                     <span><CallIcon /> 9813033635</span>
@@ -68,6 +76,21 @@ export default function Cvbody() {
                             </div>
 
                         </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <h2>Skills</h2>
+                            <div className="skills">
+                                <Image className="skills__image" src={FlutterIcon} alt="Flutter"/>
+                                <Image className="skills__image" src={PythonIcon}/>
+                                <Image className="skills__image" src={CssIcon}/>
+                                <Image className="skills__image" src={JavaScriptIcon}/>
+                                <Image className="skills__image" src={HtmlIcon}/>
+                                <Image className="skills__image" src={KotlinIcon}/>
+                            </div>
+                        </Col>
+                        <Col>
+                        asdfaf</Col>
                     </Row>
                 </Container>
                 <div className="firstcol">
