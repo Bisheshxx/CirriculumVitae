@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/%7BCirriculumVitae%7D/static/css/main.c1fc5ab3.chunk.css",
+    "main.js": "/%7BCirriculumVitae%7D/static/js/main.aa2ff25b.chunk.js",
+    "main.js.map": "/%7BCirriculumVitae%7D/static/js/main.aa2ff25b.chunk.js.map",
+    "runtime-main.js": "/%7BCirriculumVitae%7D/static/js/runtime-main.4f0ad098.js",
+    "runtime-main.js.map": "/%7BCirriculumVitae%7D/static/js/runtime-main.4f0ad098.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/%7BCirriculumVitae%7D/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.a0246b8d.chunk.js": "/%7BCirriculumVitae%7D/static/js/2.a0246b8d.chunk.js",
+    "static/js/2.a0246b8d.chunk.js.map": "/%7BCirriculumVitae%7D/static/js/2.a0246b8d.chunk.js.map",
+    "static/js/3.6d3ade2c.chunk.js": "/%7BCirriculumVitae%7D/static/js/3.6d3ade2c.chunk.js",
+    "static/js/3.6d3ade2c.chunk.js.map": "/%7BCirriculumVitae%7D/static/js/3.6d3ade2c.chunk.js.map",
+    "index.html": "/%7BCirriculumVitae%7D/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/%7BCirriculumVitae%7D/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.c1fc5ab3.chunk.css.map": "/%7BCirriculumVitae%7D/static/css/main.c1fc5ab3.chunk.css.map",
+    "static/js/2.a0246b8d.chunk.js.LICENSE.txt": "/%7BCirriculumVitae%7D/static/js/2.a0246b8d.chunk.js.LICENSE.txt",
+    "static/media/css.4b9d7904.png": "/%7BCirriculumVitae%7D/static/media/css.4b9d7904.png",
+    "static/media/flutterlogo.357ee472.png": "/%7BCirriculumVitae%7D/static/media/flutterlogo.357ee472.png",
+    "static/media/html.846d76cd.png": "/%7BCirriculumVitae%7D/static/media/html.846d76cd.png",
+    "static/media/javascript.c69d2d99.png": "/%7BCirriculumVitae%7D/static/media/javascript.c69d2d99.png",
+    "static/media/kotlin.e7825229.png": "/%7BCirriculumVitae%7D/static/media/kotlin.e7825229.png",
+    "static/media/logo.6ce24c58.svg": "/%7BCirriculumVitae%7D/static/media/logo.6ce24c58.svg",
+    "static/media/profilepic.9a6a4c55.jpg": "/%7BCirriculumVitae%7D/static/media/profilepic.9a6a4c55.jpg",
+    "static/media/python.6c798812.png": "/%7BCirriculumVitae%7D/static/media/python.6c798812.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f0ad098.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.a0246b8d.chunk.js",
+    "static/css/main.c1fc5ab3.chunk.css",
+    "static/js/main.aa2ff25b.chunk.js"
+  ]
+}
