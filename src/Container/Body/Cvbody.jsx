@@ -32,7 +32,7 @@ export default function Cvbody() {
                 </div>
             </div>
 
-            <div className="Details">
+            <div className="Detail">
                 <Container>
                     <Row>
                         <Col>

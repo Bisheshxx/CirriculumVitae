@@ -84,7 +84,7 @@
   ul{
       list-style: none;
   }
-  .Details{
+  .Detail{
       padding-bottom: 100px;
   }
   @media screen and (max-width: 425px) {
