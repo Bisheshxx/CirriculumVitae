@@ -6,7 +6,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-    animation: flicker 1.5s infinite alternate;
+    /* animation: flicker 1.5s infinite alternate; */
 }
 .header{    
     padding-top: 20px;
@@ -47,10 +47,14 @@
     padding: 30px 30px 30px;
     background-color: rgb(233, 233, 233);
 }
-
+.def{
+    text-align: center;
+}
 .skills__image{
+
     margin-top: 20px;
     height: 70px !important;
+    width: fit-content;
 }
 
 @keyframes flicker {
@@ -58,14 +62,14 @@
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
   
         text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 19px #0fa,
-        0 0 19px #0fa,
-        0 0 19px #0fa,
-        0 0 19px #0fa,
-        0 0 19px #0fa;
+        0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 0px #fff,
+        0 0 19px rgb(0, 47, 255),
+        0 0 19px rgb(0, 47, 255),
+        0 0 19px rgb(0, 47, 255),
+        0 0 19px rgb(0, 47, 255),
+        0 0 19px rgb(0, 47, 255);
     
     }
     
@@ -79,5 +83,15 @@
   }
   ul{
       list-style: none;
+  }
+  .Details{
+      padding-bottom: 100px;
+  }
+  @media screen and (max-width: 425px) {
+    .skills__image{
+        margin-top: 20px;
+        height: 35px !important;
+        width: fit-content;
+    }
   }
   

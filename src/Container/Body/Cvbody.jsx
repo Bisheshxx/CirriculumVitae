@@ -23,7 +23,12 @@ export default function Cvbody() {
         <div className="Cvbody">
             <div className="header">
                 <div className="name">
+                    <div className="def">
                     <h1>Bishesh Tuladhar</h1>
+                    {/* <span>React Js Developer</span> */}
+                    </div>
+                    
+
                 </div>
             </div>
 
@@ -145,9 +150,6 @@ export default function Cvbody() {
                         </Col>
                     </Row>
                 </Container>
-                <div className="firstcol">
-
-                </div>
             </div>
         </div>
     )
