@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CirriculumVitae/static/css/main.d4a7d3a2.chunk.css",
-    "main.js": "/CirriculumVitae/static/js/main.0d1cd5ce.chunk.js",
-    "main.js.map": "/CirriculumVitae/static/js/main.0d1cd5ce.chunk.js.map",
+    "main.css": "/CirriculumVitae/static/css/main.2dbb011c.chunk.css",
+    "main.js": "/CirriculumVitae/static/js/main.5c28ae03.chunk.js",
+    "main.js.map": "/CirriculumVitae/static/js/main.5c28ae03.chunk.js.map",
     "runtime-main.js": "/CirriculumVitae/static/js/runtime-main.49013bbd.js",
     "runtime-main.js.map": "/CirriculumVitae/static/js/runtime-main.49013bbd.js.map",
     "static/css/2.e6c1e8c5.chunk.css": "/CirriculumVitae/static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.a0246b8d.chunk.js": "/CirriculumVitae/static/js/2.a0246b8d.chunk.js",
-    "static/js/2.a0246b8d.chunk.js.map": "/CirriculumVitae/static/js/2.a0246b8d.chunk.js.map",
+    "static/js/2.326d2496.chunk.js": "/CirriculumVitae/static/js/2.326d2496.chunk.js",
+    "static/js/2.326d2496.chunk.js.map": "/CirriculumVitae/static/js/2.326d2496.chunk.js.map",
     "static/js/3.6d3ade2c.chunk.js": "/CirriculumVitae/static/js/3.6d3ade2c.chunk.js",
     "static/js/3.6d3ade2c.chunk.js.map": "/CirriculumVitae/static/js/3.6d3ade2c.chunk.js.map",
     "index.html": "/CirriculumVitae/index.html",
     "static/css/2.e6c1e8c5.chunk.css.map": "/CirriculumVitae/static/css/2.e6c1e8c5.chunk.css.map",
-    "static/css/main.d4a7d3a2.chunk.css.map": "/CirriculumVitae/static/css/main.d4a7d3a2.chunk.css.map",
-    "static/js/2.a0246b8d.chunk.js.LICENSE.txt": "/CirriculumVitae/static/js/2.a0246b8d.chunk.js.LICENSE.txt",
+    "static/css/main.2dbb011c.chunk.css.map": "/CirriculumVitae/static/css/main.2dbb011c.chunk.css.map",
+    "static/js/2.326d2496.chunk.js.LICENSE.txt": "/CirriculumVitae/static/js/2.326d2496.chunk.js.LICENSE.txt",
     "static/media/css.4b9d7904.png": "/CirriculumVitae/static/media/css.4b9d7904.png",
     "static/media/flutterlogo.357ee472.png": "/CirriculumVitae/static/media/flutterlogo.357ee472.png",
     "static/media/html.846d76cd.png": "/CirriculumVitae/static/media/html.846d76cd.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.49013bbd.js",
     "static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.a0246b8d.chunk.js",
-    "static/css/main.d4a7d3a2.chunk.css",
-    "static/js/main.0d1cd5ce.chunk.js"
+    "static/js/2.326d2496.chunk.js",
+    "static/css/main.2dbb011c.chunk.css",
+    "static/js/main.5c28ae03.chunk.js"
   ]
 }
